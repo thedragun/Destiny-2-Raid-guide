@@ -59,3 +59,11 @@ body {
   padding:10px;
   background:white;
 }
+#garden {
+  max-width:80%;
+  margin: 0 auto;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  background:white;
+}
