@@ -1,0 +1,58 @@
+body {
+  font-size:40px;
+  background-color:grey;
+}
+
+#leviathan {
+  max-width:80%;
+  margin: 0 auto;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  background:white;
+}
+
+#eater {
+    max-width:80%;
+  margin: 0 auto;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  background:white;
+}
+
+#spire {
+  max-width:80%;
+  margin: 0 auto;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  background:green;
+}
+
+#wish {
+  max-width:80%;
+  margin: 0 auto;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  background:white;
+}
+
+#scourge {
+  max-width:80%;
+  margin: 0 auto;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  background:white;
+}
+
+#crown {
+  max-width:80%;
+  margin: 0 auto;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  background:white;
+}
