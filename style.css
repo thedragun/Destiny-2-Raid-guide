@@ -9,11 +9,14 @@ body {
   text-align:center;
   border-radius:10px;
   padding:10px;
-  background:gold;
+  background-image: url("37049661250_5b5b9c884c_b.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
+
 #eater {
-    max-width:80%;
+  max-width:80%;
   margin: 0 auto;
   text-align:center;
   border-radius:10px;
