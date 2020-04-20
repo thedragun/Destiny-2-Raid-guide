@@ -3,6 +3,27 @@ body {
   background-image: linear-gradient(to bottom right, purple, gold);
 }
 
+p {
+  font: san-serif;
+}
+
+#banner {
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 10px;
+
+  background-image:;
+}
+
+#banner-heading {
+  font-size: 2.8em
+}
+
 #leviathan {
   max-width:80%;
   margin: 0 auto;
@@ -13,7 +34,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 
 #eater {
   max-width:80%;
@@ -69,6 +89,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+
 #garden {
   max-width:80%;
   margin: 0 auto;
