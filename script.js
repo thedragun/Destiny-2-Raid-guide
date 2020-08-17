@@ -1,17 +1,14 @@
-var scrollButton = document.getelementbyid("toTop");
+var button = document.getElementById("toTop");
 
-window.onscroll = function() {scrollFunction()};
-
-function scrollfunction() {
+function scrollFunction() {
 
 if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-   scrollButton.style.display: = "block";
+   button.style.display = "block";
  } else {
-   scrollButton.style.display = "none";
+   button.style.display = "none";
  }
 }
 
-function upTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+window.onscroll = function() {scrollFunction()};
+
+function upTop() {document.documentElement.scrollTop = 0;}
