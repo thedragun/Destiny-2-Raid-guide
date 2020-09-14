@@ -1,5 +1,6 @@
-#navbar {
-
+#dropButton {
+  background-color: black;
+   margin-left: 0;
 }
 
 body {
@@ -25,8 +26,13 @@ body {
    border-width: 5px;
 }
 
+h3 {
+  font-family: verdana;
+}
+
 p {
-  font: san-serif;
+  font-size: 28px;
+  font-family: verdana;
 }
 
 #banner {
@@ -37,12 +43,14 @@ p {
      margin: 0 auto;
       border-radius: 20px;
        padding: 10px;
-        background-color: grey;
+        background-image: url("20200419122415_1.jpg");
          opacity: 0.8;      
 } 
 
 #banner-heading {
-  font-size: 2.8em;
+  font-size: 3.5em;
+   color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #blerb {
@@ -50,13 +58,20 @@ p {
   margin: 0 auto;
    text-align:center;
     border-radius:10px;
-     padding:10px;
-      background-color: rgba(255, 217, 0, 0.692);
-       background-position: center;
-        background-size: cover;
-         opacity: 0.7;
+     background-size: cover;
+      background-color: grey;
+       opacity: 0.7;
+}
+
+#blerbHead {
+  font: verdana;
 }
  
+#damageHead {
+  font-family: verdana; 
+}
+
+
 #leviathan {
   max-width:80%;
    margin: 0 auto;
@@ -96,7 +111,7 @@ p {
     text-align:center;
      border-radius:10px;
       padding:10px;
-       background-image: url("20200419121222_1.jpg");
+       background-image: url("Destiny 2 Screenshot 2020.08.19 - 19.35.22.63.png");
         background-position: center;
          background-size: cover;
 }

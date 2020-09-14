@@ -9,6 +9,6 @@ if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
  }
 }
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = scrollFunction();
 
 function upTop() {document.documentElement.scrollTop = 0;}

@@ -1,30 +1,37 @@
-  <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="style.css">
           <title> Destiny 2 Raid Guide </title>
   </head>
-
+<!--linking the javascript-->
   <script src="script.js"></script>
-
+<!--walking by jerry terry (song note)-->
   <body>
-    
-
+    <!--making the drop down navigation-->
+    <div id="dropdown"> 
+       <button id="dropButton" class="dropContents">Jump to...</button>
+        <a class="dropContents" href="#leviathan">Leviathan</a>
+         <a class="dropContents" href="#wish">Last wish</a>
+          <a class="dropContents" href="#scourge">Scourge of the past</a>
+           <a class="dropContents" href="#garden">Garden of salvation</a>
+    </div>
+<!--banner-->
     <div id="banner" class="borders">
-      <h1 id="banner-heading">A Destiny 2 Raid Guide</h1>
+    <h1 id="banner-heading">Destiny 2 Raid Guide</h1>
     </div>
     
-
+<!--basic information about the site-->
     <div id="blerb" class="borders">
-     <p>
+     <p id="blerbText">
        A standard guide to destiny 2's four raids. Check avaliablity of raids with release of beyond light expansion (Crown of sorrows, spire of stars and eater of worlds have been removed from the guide.)
      </p>
     </div>
-
+<!--standard damage protocol-->
     <div id="damage">
-      <div class="textbox , borders">
-        <H1>Standard damage phase procedure:</H1>
+      <div id="damageText"class="textbox , borders">
+        <H1 id="damageHead">Standard damage phase procedure:</H1>
 
           <p>
             Standard damage phase procedure is essentually having these things:
@@ -35,7 +42,6 @@
           </li>
           <br>
            <br>
-            <br>
           <li>A bubble titan:
           <br>
           a titan running top tree sentinel shoud drop a bubble for the weapons of light buff. the bubble should be place some where not intrusive like with the well between the bubble and the boss or off to the side.</li>
@@ -49,7 +55,7 @@
 
       </div>
     </div>
-
+<!--Levi Raid-->
   <div id="leviathan" class="guides, borders">
     <div class="textbox , borders">
     <h1>Leviathan</h1>
@@ -91,7 +97,7 @@
 
   </div>
   </div>
-
+<!--the last wish-->
   <div id="wish" class="guides">
     <div class="textbox , borders">
     <h1>Last Wish</h1>
@@ -104,7 +110,7 @@
       there are special enemys called eyes of riven. they drop an orb that will function as a weapon theres a primary fire, you can use your grenade for a slam and you can hit your super to throw the orb. this will be used for some mechanics.
     </p>
 
-    <h3>The first encounter: kalli</h3>
+    <h3>The first Encounter: Kalli</h3>
 
       <p>
         when you first enter the room the first thing you will notice is the big pit in the center of the room surounded by hanging symbols. there are also nine plates around the room with symbols above them. look its not that hard just step on the plates of the corrisponding symbols and don't die until a knight spawns then kill the knight to clear the plate. occasionally kalli will come over to throw salt on you but she can be repelled with the classic method of pretending your not home and hiding(getting off the plate) or with bullets. 
@@ -116,13 +122,13 @@
         Once all the sybols have been clensed and the words "kalli is summoning an ontological weapon" then you can start damaging her go though standard damage phase procedure. and defeat kallis.
       </p>
 
-    <h3>Encounter Two: shuro chi</h3>
+    <h3>Encounter Two: Shuro Chi</h3>
 
       <p>
         your going to want a mix of wave clear and boss damage here. top tree storm caller or a middle tree sunbreaker do wonders. Now there will be a timer on the left of your screne if that hits zero you will wipe. once youre done clearing three crystals will appear around shuro chi choose three players to be crystal bearers they will stand on the plates around the boss and fire the crystal at the player to their left this will cause the boss's sheild to drop. crystal bearers need to be quick when dropping the sheilds because standing on the plates will damage them. you've probably noticed that the bosses health bar is segmented you need to do one segment each one of these damage phases. once either you die or you remove a segment of shuros health bar she will switch songs. the eye of riven knight that appeared dropped an orb when she switchs songs the player using the orb should hit their super button to throw the orb at shuro interrupting the wipe. chase and repeat. soon you will reach a puzzle room you need to stand on the plates corrisponding to the missing parts of the mural. you also need to stand on the plates at the same time. then you just repeat for all the segments. 
       </p>
 
-    <h3>Encounter three: Morgeth the thicc</h3>
+    <h3>Encounter three: Morgeth</h3>
 
       <p>
         Forout the fight with Morgeth he will be gaining strength a good run will see you entering the damage phase when he is at about 30% strength.
@@ -215,7 +221,7 @@
 
   </div>
   </div>
-
+<!--Scourge of the past-->
   <div id="scourge" class="guides">
     <div class="textbox , borders">
     <h1>Scourge of the Past</h1>
@@ -228,7 +234,7 @@
         If you make your way across the rooftops you will come to a set of devices guarded by fallen. Once they are dealt with a battery will drop. Insert this into the egg like device. Now figure out which way is north most people assign the Schnell building as north. Now leave a map reader and a guard. What your going to do is hunt the enemy's marked on the map each will drop two batteries one will be returned to the map and the other will be taken to one of four holes. repeat until none of the battery carriers remain then drop down the now open hole into the maze. part of the fun is figuring out the maze so no help for that. when you get to the room with all the pillars the entrance you want is on the right side of the room.
       </p>
 
-    <h3>Encounter Two: Storm Drain Dash</h3>
+    <h3>Encounter Two: Storm Drain Dash</h3>  
 
     <p>
       This next section is rather linear. The hard part is not dying on the way. You can start it by meleeing both consoles that have the fallen hand on them. There are six switches hidden in the race. You can hit them by driving near them. They unlock a chest at the end, which gives a chance to obtain an exotic Sparrow. Thats all there really is to this section.
@@ -259,7 +265,7 @@
 
   </div>
   </div>
-
+<!--Garden of salvation-->
   <div id="garden" class="guides">
     <div class="textbox , borders">
     <h1>Garden of salvation</h1>
@@ -274,30 +280,46 @@
     <h3>Encounter one:</h3>
 
       <p>
-        First split your team into two groups one group will move into the next room (tethering might be required to get in) and clear the enemies there while the group that stays will distract the boss. Those distracting the boss need to scoop its poop but also need to communicate because there's a cooldown on the poop scooping so you need to rotate. You need to scoop the poop fast cause it will wipe. After enough of this you reach the top of a plateau. Chase the boss across the plateau. Until the boss leaves then drop down into the hole in the floor.
+        First split your team into two groups one group will move into the next room (tethering might be required to get in) and clear the enemies there until an angelic spawns, while the group that stays will distract the boss. Those distracting the boss need to scoop its voltic charge but also need to communicate because there's a cooldown on the charge scooping so you need to rotate. You need to scoop the charge fast cause it will wipe. After enough of this you reach the top of a plateau. Chase the boss across the plateau. Until the boss leaves then drop down into the hole in the floor.
       </p>
 
-    <h3>Encounter two: tower defence and then discount gambit.</h3>
+    <h3>Encounter two: tower defence.</h3>
 
       <p>
-        eventually you will reach a area that has three lanes split the team into two groups the defenders and the roamers the defender will be four players taking a corner each while the roamers are the rest of the players they will be moving between two of the corners providing support. now the defenders will need to kill minotaurs which will drop motes. bank these at the conflux in the center of your corner to gain a buff that will let you break the sheilds on the approching enemies. note that banking motes will cause a expolding harpy called a supplicant to spawn and hunt you down. Roamers should grab the buff and help the player on the other side of their assigned lane clear their units of sheilds so they can clear the wave.
+        eventually you will reach a area that has three lanes split the team into two groups the defenders and the roamers the defender will be four players taking a corner each while the roamers are the rest of the players they will be moving between two of the corners providing support. Roamers should grab the buff and help the player on the other side of their assigned lane clear their units of sheilds so they can clear the wave. Once the walls fall move to defend the center pylon.
       </p>
 
     <h3>Harpy Boss Encounter</h3>
 
     <p>
-      Chase the boss. Then pick up the voltaic charge. The person that picked up the charge will be caught in a sheild. They will see a diffrent harpy from the one that the others will see they need to callout inner or outer depending on the lights. The team then needs to shoot the correct lights. While this is happening
+      Split your team into two groups again the gambit team and the babysitters.
+      the gambit team will need to kill minotaurs which will drop motes. bank these at the conflux that was selected(big blue beam to the sky). note that banking motes will cause a expolding harpy called a supplicant to spawn and hunt you down. 
+
+      The babysitter team will chase the boss(goldfish). Then pick up the voltaic charge. The person that picked up the charge will be caught in a sheild. They will see a diffrent harpy from the one that the others will see they need to callout inner or outer depending on the lights. The team then needs to shoot the correct lights. While this is happening the gambit team should be charging the pylon with motes.
+
+      Once the pylon is charged the goldfish should go running towards the pylon this leads the damage phase, the babysitter team should beat the boss back to pylon. now you need to shoot all the eyes that appear, then the harpyfish's vex tank will appear. lay into it with dps weapons, you also need to follow the boss down the alley because walls will appear in the alley blocking you. 
+
     </p>
 
     <h3>Final Boss Encounter:</h3>
 
       <p>
-        do a thing to open portals then go through collect motes then bank at the two pylons, when filled the will float the boss now shoot him. 
+        alright four teams: defender team(2), blue team(2), red team(2) and tether team(4) feel free to overlap members. defender team will stay on he feild defend pylons and rebuild platforms. red team will be collecting motes from the red portal. blue from the blue.
+
+        as the fight an angelic will spawn kill this then shoot the light on the bosses shoulder then a red portal will spawn where it lands. red team enters and collects their motes when everyone has their motes they need to call out so the people still on the feild can shoot the shoulder again to pull them back, the team then banks at their apropriate pylon. then blue should do the same. until both pylons are charged. when the boss is ready for the damage phase. a tether point will apear in frount of the boss you need to tether to the same colored pylon.
+         <br> <br>
+        there are some things that should be noted when doing this encounter: 
+        <br><br> 
+        when banking a cyclops will spawn kill it it will be a hassle.
+        <br>
+        you can trick the red side into respawning the ads by climbing up onto the branch behind the arena. you can fill the red bank in one go with this trick I believe that you need one of the garden mods to do it though.
+        <br>
+        you have to rebuild using the pylons after the damage phase you don't have a big window though.
       </p>
 
   </div>
   </div>
-
+<!--a small return to top button-->
 <button onclick="upTop()" id="toTop" title="toTheTop">top</button>
 
 
