@@ -1,3 +1,4 @@
+/*settings for the dropBar and its contents*/
 #dropBar {
   background-color: rgb(0, 0, 0);
    color: #ffffff;
@@ -29,11 +30,13 @@
   display: block;
 }
 
+/*the big color wave in the background*/
 body {
   font-size:40px;
    background-image: linear-gradient(to bottom right, purple, gold);
 }
 
+/* preset for puttting a text box in*/
 .textbox {
  max-width:80%;
   margin: 0 auto;
@@ -46,12 +49,14 @@ body {
          opacity: 0.7;
 }
 
+/*preset for putting the black border around the textboxes*/
 .borders {
  border-style: solid;
   border-color: white;
    border-width: 5px;
 }
 
+/*text fonts and sizing*/
 h3 {
   font-family: verdana;
 }
@@ -61,6 +66,7 @@ p {
   font-family: verdana;
 }
 
+/*banners*/
 #banner {
  margin-left: 2em;
   margin-right: 2em;
@@ -79,6 +85,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*settings for the writing*/
 #blerb {
  max-width:80%;
   margin: 0 auto;
@@ -142,6 +149,7 @@ p {
          background-size: cover;
 }
 
+/*visuals for the return to top button*/
 #toTop {
  position: fixed;
   bottom: 5px;
