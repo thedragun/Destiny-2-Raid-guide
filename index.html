@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -7,18 +7,16 @@
   </head>
 <!--linking the javascript-->
   <script src="script.js"></script>
-
   <body>
 <!--making the drop down navigation-->
     <div id="dropdown">
-       <button id="dropBar">Jump to...</button>
-       <div id="dropContents" class="dropContentItem">
-        <a class="dropContentItem" href="#leviathan">Leviathan</a>
-         <a class="dropContentItem" href="#wish">Last wish</a>
-          <a class="dropContentItem" href="#scourge">Scourge of the past</a>
-           <a class="dropContentItem" href="#garden">Garden of salvation</a>
-
-       </div>
+       <button id="dropButton" onclick="dropMenu()" >Jump to...</button>
+        <div class="dropMenu">
+         <a class="dropContentItem" href="#leviathan">Leviathan</a>
+          <a class="dropContentItem" href="#wish">Last wish</a>
+           <a class="dropContentItem" href="#scourge">Scourge of the past</a>
+            <a class="dropContentItem" href="#garden">Garden of salvation</a>
+        </div>
     </div>
 <!--banner-->
     <div id="banner" class="borders">
