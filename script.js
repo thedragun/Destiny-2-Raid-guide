@@ -13,7 +13,7 @@ document.body.onscroll = scrollFunction();
 
 function upTop() {document.documentElement.scrollTop = 0;}
 
-function change() {
+function itWorks() {
   var x = document.getElementById("dropMenu");
   if (x.style.display === "none") {
     x.style.display = "block";
