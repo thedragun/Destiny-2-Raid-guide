@@ -1,30 +1,40 @@
-#dropdown {
-  position: relative;
-   display: inline-block;
-}
 
 #dropButton {
-  
+background-color: black;
+ color: white;
+  border: 1px solid gold;
+   font-size: 30px;
+    text-align: center;
+     width: 100%;
+      padding-top: 0px;
+
 }
 
 #dropMenu {
   display: none;
    position: absolute;
     background-color: #f1f1f1;
-     min-width: 160px;
+     width: 91.25%;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
        z-index: 1;
+        text-align: center;
 }
 
 .dropContentItem {
   color: white;
    background-color: black;
-    padding: 12px 16px;
-     text-decoration: none;
-      display: block;
+    border: 1px solid white;
+     padding: 5px 50px;
+      text-decoration: none;
+       display: block;
+        white-space: nowrap;
+         width: 100%;
 }
 
-.dropcontent a:hover {background-color: #ddd}
+  a:hover {
+    background-color: white;
+     color: black;
+  }
 
 body {
   font-size:40px;
@@ -55,7 +65,7 @@ h3 {
 
 p {
   font-size: 28px;
-  font-family: verdana;
+   font-family: verdana;
 }
 
 #banner {
@@ -123,7 +133,7 @@ p {
     text-align:center;
       border-radius:10px;
        padding:10px;
-        background-image: url(".jpg");
+        background-image: url("20201013192922_1.jpg");
          background-position: center;
           background-size: cover;
 }
