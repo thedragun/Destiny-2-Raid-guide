@@ -5,7 +5,7 @@ var button = document.getElementById("toTop");
 if (topPage > 30 || topPage > 30) {
    button.style.display = "block";
  } else {
-   button.style.display = "none";
+   button().style.display = "none";
  }
 }
 
