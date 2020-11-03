@@ -1,8 +1,4 @@
-@media screen only and (min-width:300px;) {
-.title {
-  font-size:3px;
-}
-}
+/*fullcreen verion*/
 
 #dropButton {
 background-color: black;
@@ -48,6 +44,7 @@ background-color: black;
 }
 
 body {
+  font-family: verdana;
   font-size:40px;
    background-image: linear-gradient(to bottom right, purple, gold);
 }
@@ -168,4 +165,16 @@ p {
 
 #toTop:hover {
  background-color: #555;
+}
+
+
+/*mobile version*/
+
+
+@media (max-width:600px) {
+body {
+  font-size:20px;
+}
+
+
 }
