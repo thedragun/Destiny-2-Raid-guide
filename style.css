@@ -174,13 +174,17 @@ E
 
 
 @media (max-width:600px) {
-  #leviathan #wish #scourge #garden {
+
+body {
+  font-size:1em;
+  background-color: yellow;
+  background-image: none;
+
+}
+
+  #leviathan, #wish, #scourge, #garden {
      background-image: none;
 
-  }
-
-  #wish {
-    background-image: none;
   }
 
   .borders {
