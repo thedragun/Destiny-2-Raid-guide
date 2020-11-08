@@ -174,9 +174,45 @@ E
 
 
 @media (max-width:600px) {
-body {
-  font-size:20px;
-}
+  #leviathan #wish #scourge #garden {
+     background-image: none;
 
+  }
 
+  #wish {
+    background-image: none;
+  }
+
+  .borders {
+   border-style: none;
+
+  }
+
+  .textbox {
+   max-width:80%;
+    margin: 0 auto;
+     text-align:center;
+      border-radius:10px;
+       padding:10px;
+        background-color: yellow;
+         background-position: center;
+          background-size: cover;
+           opacity: 1.0;/* bug fix */
+  }
+
+  #blerb {
+   max-width:80%;
+    margin: 0 auto;
+     text-align:center;
+      border-radius:10px;
+       background-size: cover;
+        background-color: yellow;
+         opacity: 1.0;/* bug fix */
+  }
+
+  /* bug fix */
+ #damageText #wish .guides {
+   background-color: yellow;
+    opacity: 1.0;/* bug fix */
+ }
 }
