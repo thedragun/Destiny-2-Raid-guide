@@ -157,12 +157,10 @@ p {
          background-size: cover;
 }
 
-E
-
 #toTop {
  position: fixed;
   bottom: 5px;
-   right: 20px;
+   right: 5px;
 }
 
 #toTop:hover {
@@ -170,7 +168,7 @@ E
 }
 
 
-/*mobile version*/
+/*////////////////////////////mobile version///////////////////////////*/
 
 
 @media (max-width:600px) {
@@ -201,7 +199,7 @@ body {
         background-color: yellow;
          background-position: center;
           background-size: cover;
-           opacity: 1.0;/* bug fix */
+           opacity: 1.0;
   }
 
   #blerb {
@@ -211,12 +209,12 @@ body {
       border-radius:10px;
        background-size: cover;
         background-color: yellow;
-         opacity: 1.0;/* bug fix */
+         opacity: 1.0;
   }
 
-  /* bug fix */
+
  #damageText #wish .guides {
    background-color: yellow;
-    opacity: 1.0;/* bug fix */
+    opacity: 1.0;
  }
 }
