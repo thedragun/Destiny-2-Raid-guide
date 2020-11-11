@@ -157,12 +157,10 @@ p {
          background-size: cover;
 }
 
-E
-
 #toTop {
  position: fixed;
   bottom: 5px;
-   right: 20px;
+   right: 5px;
 }
 
 #toTop:hover {
